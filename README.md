@@ -36,7 +36,7 @@ Recommended next step: option 1 — restart Ollama with OLLAMA_HOST=0.0.0.0 and 
 ## Install
 
 ```
-/plugin marketplace add mvakkilainen/regroup
+/plugin marketplace add McMiller81/regroup
 /plugin install regroup
 ```
 

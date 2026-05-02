@@ -3,6 +3,6 @@
   "description": "A mid-task web-search re-evaluator for Claude Code — fires when stuck and returns an updated options list with confidence ratings.",
   "version": "0.1.0",
   "author": {
-    "name": "mvakkilainen"
+    "name": "McMiller81"
   }
 }
