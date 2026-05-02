@@ -1,9 +1,9 @@
 ---
 name: regroup
-description: Mid-task web-search re-evaluator that fires when stuck. Manual trigger /regroup, or phrases like "search for more", "look this up", "find more options", "out of ideas", "nothing is working", "stuck on this". Self-trigger after 3+ consecutive failed fix attempts on the same problem, an unrecognized error or tool not in training, exhausted options in the current plan, an edge case the plan didn't cover, or conflicting approaches with no clear winner. Do NOT fire on bare mentions of google docs, drive, sheets, maps, or analytics - those are products, not search intent.
+description: Google It! Mid-task web-search re-evaluator that fires when stuck. Manual trigger /regroup, or phrases like "google it", "Google It!", "search for more", "look this up", "find more options", "out of ideas", "nothing is working", "stuck on this". Self-trigger after 3+ consecutive failed fix attempts on the same problem, an unrecognized error or tool not in training, exhausted options in the current plan, an edge case the plan didn't cover, or conflicting approaches with no clear winner. Do NOT fire on bare mentions of google docs, drive, sheets, maps, or analytics - those are products, not search intent.
 ---
 
-# /regroup — Mid-Task Re-Evaluation via Web Search
+# /regroup — Google It! Mid-Task Re-Evaluation via Web Search
 
 This skill is NOT a standalone troubleshooter. It is a **re-evaluation injection** that fires mid-task when Claude is stuck or when the user signals it. It searches the web, merges the new data into the current working context, and produces an updated options list before continuing.
 
@@ -14,7 +14,7 @@ This skill is NOT a standalone troubleshooter. It is a **re-evaluation injection
 Invoke this skill when any of these match:
 
 - The user types `/regroup` anywhere in a message, or in a standing instruction.
-- The user says something equivalent to giving up on the current path: "search for more", "look this up", "google this", "find more options", "get more data", "stuck on this", "out of ideas", "nothing is working", "try something else".
+- The user says something equivalent to giving up on the current path: "google it", "Google It!", "search for more", "look this up", "google this", "find more options", "get more data", "stuck on this", "out of ideas", "nothing is working", "try something else".
 - Three or more consecutive fix attempts have failed on the same underlying problem.
 - An error string, tool, or behavior shows up that you don't recognize from training and can't reason out from context.
 - Every option already on the working plan has been tried; the list is empty.

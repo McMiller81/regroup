@@ -1,5 +1,7 @@
 # regroup
 
+> **Google It!** — when you're stuck, regroup searches the web, returns with new options, and lets you continue smarter.
+
 A mid-task web-search re-evaluator for Claude Code that fires when you're stuck.
 
 ## What it does
