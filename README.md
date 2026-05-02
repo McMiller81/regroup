@@ -36,10 +36,11 @@ Recommended next step: option 1 — restart Ollama with OLLAMA_HOST=0.0.0.0 and 
 ## Install
 
 ```
+/plugin marketplace add mvakkilainen/regroup
 /plugin install regroup
 ```
 
-Requires Claude Code with plugin support.
+Then run `/reload-plugins` (or restart Claude Code) to activate. Requires Claude Code with plugin support.
 
 ## Manual trigger
 
